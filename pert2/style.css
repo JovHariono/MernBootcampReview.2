@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.form-control {
+    border: 1px solid grey;
+    padding: 8px;
+    border-radius: 16px;
+    background-color: #f7f7f7;
+}
+
+button {
+    padding: 8px 24px 8px 24px;
+    border: 0px;
+    background-color: #b09b50;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #6b5135;
+    cursor: pointer;
+    animation: button hover ease-in-out 2s;
+}
+
+@keyframes buttonHover {
+    0% { background-color: initial; }
+    100% { background-color: #6b5135; }
+}
